@@ -77,15 +77,15 @@ const Aside = () =>
                 <ul className={styles.asideInformationPersonalList}>
                     <li className={styles.asideInformationPersonalListItem}>
                         <span>{t('common:aside.2.residence')}:</span>
-                        <span>Serbia</span>
+                        <span>Singapore</span>
                     </li>
                     <li className={styles.asideInformationPersonalListItem}>
                         <span>{t('common:aside.3.city')}:</span>
-                        <span>Vladicin Han</span>
+                        <span>Singapore</span>
                     </li>
                     <li className={styles.asideInformationPersonalListItem}>
                         <span>{t('common:aside.4.age')}:</span>
-                        <span>{new Date().getFullYear() - 1998}</span>
+                        <span>{new Date().getFullYear() - 1996}</span>
                     </li>
                 </ul>
 
