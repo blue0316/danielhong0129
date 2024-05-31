@@ -1,0 +1,16 @@
+{
+    "explore": "EXPLORER PLUS",
+    "order": "COMMANDER MAINTENANT",
+    "aside":
+    [
+        { "userTitle": "FDéveloppeur Web & Mobile Full-Stack" },
+        { "userSubtitle": "Ingénieur DevOps/IA" },
+        { "residence": "Résidence" },
+        { "city": "Ville" },
+        { "age": "Âge" },
+        { "finnish": "Finlandais" },
+        { "english": "Anglais" },
+        { "german": "Allemand" },
+        { "download": "TÉLÉCHARGER CV" }
+    ]
+}

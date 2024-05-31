@@ -1,0 +1,208 @@
+.nav
+{
+    display: grid;
+    grid-template-rows: 7rem 1fr 15rem;
+
+    @media only screen and (width <= 1000px)
+    {
+        grid-template-rows: 7rem 1fr 6rem;
+    }
+
+    box-shadow: 0 3px 8px 0 var(--base-transparent-darker);
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 101;
+
+    transition: width 0.4s;
+    width: 8rem;
+    height: 100%;
+
+    @media only screen and (width <= 1000px)
+    {
+        right: -100%;
+    }
+
+    &Active
+    {
+        transition: 0.4s;
+        width: 27.6517rem;
+        right: 0;
+        grid-template-rows: 7rem 1fr 6rem;
+    }
+
+    &Hamburger
+    {
+        background: var(--base-darker);
+
+        position: relative;
+        cursor: pointer;
+
+        transition: all 0.2s;
+
+        &Line
+        {
+            position: absolute;
+            top: 3.5rem;
+            left: 3.5rem;
+            z-index: 100;
+
+            width: 1.5rem;
+            height: 0.3rem;
+            background-color: var(--color-base-text);
+            margin: auto;
+            transition: all 0.5s ease-in-out;
+
+            &::before,
+            &::after
+            {
+                content: "";
+                position: absolute;
+                inset: 0;
+
+                width: 1.5rem;
+                height: 0.3rem;
+                background-color: var(--color-base-text);
+                margin: auto;
+                transition: all 0.5s ease-in-out;
+            }
+
+            &::before
+            {
+                top: -1rem;
+            }
+
+            &::after
+            {
+                top: 0.7rem;
+            }
+
+            &[data-open="true"]
+            {
+                background-color: transparent;
+
+                &::before
+                {
+                    transform: rotate(45deg);
+                }
+
+                &::after
+                {
+                    transform: rotate(-45deg);
+                }
+
+                &::before,
+                &::after
+                {
+                    top: 0;
+                }
+            }
+        }
+    }
+
+    &Content
+    {
+        background-color: var(--base-dark);
+        padding-top: 8rem;
+        text-align: center;
+
+        &Active
+        {
+            display: block;
+            transform: rotate(90deg);
+            transition: 0.4s ease-out;
+
+            &[data-open="true"]
+            {
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            color: var(--color-base-text);
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        &List
+        {
+            position: absolute;
+            top: 40%;
+            left: 10%;
+
+            display: grid;
+            gap: 2rem;
+
+            &[data-open="false"]
+            {
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            &Item
+            {
+                display: flex;
+
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                font-weight: 500;
+                cursor: pointer;
+                white-space: pre;
+                color: var(--color-base-text);
+            }
+        }
+    }
+
+    &Theme
+    {
+        background: var(--base-darker);
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+
+        &[data-open="true"]
+        {
+            flex-direction: row;
+            gap: 2rem;
+        }
+
+        & span
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 0.8rem;
+            border-radius: 50%;
+            background-color: var(--base-dark);
+            color: var(--color-base-text);
+            font-weight: 600;
+            transition: all 0.2s;
+            cursor: pointer;
+
+            &:hover
+            {
+                background: var(--base-lighter);
+            }
+
+            & svg
+            {
+                width: 1.2rem;
+                height: 1.2rem;
+            }
+        }
+
+        &Active
+        {
+            background-color: var(--color-primary) !important;
+
+            & svg
+            {
+                fill: var(--base);
+            }
+        }
+    }
+}

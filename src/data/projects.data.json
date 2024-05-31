@@ -1,0 +1,249 @@
+{
+    "menus":
+    [
+        {
+            "id": 0,
+            "name": "All Categories",
+            "category": "All"
+        },
+        {
+            "id": 1,
+            "name": "Web Development",
+            "category": "Web"
+        },
+        {
+            "id": 2,
+            "name": "App Development",
+            "category": "App"
+        },
+        {
+            "id": 3,
+            "name": "Game Development",
+            "category": "Game"
+        },
+        {
+            "id": 4,
+            "name": "Graphic Design",
+            "category": "Graphic"
+        }
+    ],
+    "cards":
+    [
+        {
+            "id": 0,
+            "category": "Web",
+            "image": "/images/projects/tradeitfwd.jpg",
+            "title": "TradeitFwd",
+            "description": "TradeitFwd is a platform of people who are looking to get somework done and people who want to give their services and earn gifts.",
+            "link": "https://tradeitfwd.com/"
+        },
+        {
+            "id": 1,
+            "category": "Web",
+            "image": "/images/projects/orion-casino.jpg",
+            "title": "Orion Slot - The World Best Slot Game",
+            "description": "Casino & Slot API Provider from Fiverscan",
+            "link": "https://fivervision.com/"
+        },
+        {
+            "id": 2,
+            "category": "Web",
+            "image": "/images/projects/peppa-sauce.jpg",
+            "title": "THE JOY OF PEPPA SAUCE",
+            "description": "We're bringing a generational tradition of peppa sauce to you. A time tested recipe of blasian flavour and heat. Buy Mama Joyce Peppa Sauce here!",
+            "link": "https://whatsupskin.com/"
+        },
+        {
+            "id": 3,
+            "category": "Web",
+            "image": "/images/projects/thepatchbrand.jpg",
+            "title": "Vitamin Patches | The Patch Brand",
+            "description": "Vitamin-infused patches. Shop vitamin patches for sleep, energy, focus, calm, daily & more. Free shipping available!",
+            "link": "https://discordly.city/"
+        },
+        {
+            "id": 4,
+            "category": "Web",
+            "image": "/images/projects/whatsupskin.jpg",
+            "title": "UPSKIN - SIMPLIFED SKINCARE FOR MEN",
+            "description": "Skincare shouldn't be hard, so we created UPSKIN to make it simple and straightforward. UPSKIN offers effective skincare with targeted solutions for men. Our short two-step routines are designed for happy and healthy skin on the go.",
+            "link": "https://whatsupskin.com/"
+        },
+        {
+            "id": 5,
+            "category": "Web",
+            "image": "/images/projects/web-mrcheat.jpg",
+            "title": "MrCheat",
+            "description": "Creating, developing and selling all kinds of cheats and cheats in various games such as Counter, Zula, CS Go and most other shooter games",
+            "link": "https://mrcheat.cc/"
+        },
+        {
+            "id": 6,
+            "category": "App",
+            "image": "/images/projects/tattoshop-app.jpg",
+            "title": "Tattbook: Tattoo Booking & Appointment",
+            "description": "Meet TattBook, the ultimate iOS platform redefining the world of tattoos.",
+            "link": "https://apps.apple.com/us/app/tattbook-appointment-app/id1548175324"
+        },
+        {
+            "id": 7,
+            "category": "App",
+            "image": "/images/projects/pynk-app.jpg",
+            "title": "Pynk Dating Mobile App",
+            "description": "Pynk Dating is a cutting-edge dating application developed in Flutter, designed specifically for social influencers.",
+            "link": ""
+        },
+        {
+            "id": 8,
+            "category": "App",
+            "image": "/images/projects/nevada-app.jpg",
+            "title": "BetMGM: Nevada",
+            "description": "The excitement of Las Vegas’ premiere sportsbook is now right at your fingertips. Bet on all the major professional and college sports right from your phone, from anywhere in the state of Nevada! We have betting markets for Professional Football, Baseball, Baske.",
+            "link": "https://apps.apple.com/us/app/betmgm-sports-nevada/id1083947754"
+        },
+        {
+            "id": 9,
+            "category": "Web",
+            "image": "/images/projects/porto-woocommerce.jpg",
+            "title": "Porto WooCommerce Wordpress Theme",
+            "description": "If you’re looking for the best themes, that are all about having clean and efficient code and great design, then look no further. Browse our website themes gallery to find the right one that will suit your needs.",
+            "link": "https://www.portotheme.com/wordpress/porto_landing/"
+        },
+        {
+            "id": 10,
+            "category": "Web",
+            "image": "/images/projects/alpus-multipurpose.jpg",
+            "title": "Alpus Multi-purpose Wordpress Theme",
+            "description": "Optimal WordPress theme for your workflow. All the features you need are prebuilt in one theme. Each section has enough pre-populated types to help you save time and effort.",
+            "link": "https://alpustheme.com/"
+        },
+        {
+            "id": 11,
+            "category": "Web",
+            "image": "/images/projects/wolmart-marketplace.jpg",
+            "title": "Wolmart - The Most Powerful Marketplace Theme",
+            "description": "Multi-Vendor and Marketplace WooCommerce Responsive WordPress Theme. Supports full compatibility with the most popular multi-vendor plugins like WCFM and Dokan.",
+            "link": "https://d-themes.com/wordpress/wolmart/landing/"
+        },
+        {
+            "id": 12,
+            "category": "App",
+            "image": "/images/projects/omia-app.jpg",
+            "title": "OMIA Marketplace iOS Marketplace",
+            "description": "OMIA is a unique twist on e-commerce integrating the concepts of drop shipping and direct sales into one marketplace.",
+            "link": "https://apps.apple.com/app/vendevery/id1586836465"
+        },
+        {
+            "id": 13,
+            "category": "App",
+            "image": "/images/projects/dreampulse-app.jpg",
+            "title": "Dream Pulse AI Bot",
+            "description": "Dream Pulse is an advanced AI chatbot developed using ChatGPT 4, the latest AI model from OpenAI.",
+            "link": ""
+        },
+        {
+            "id": 14,
+            "category": "App",
+            "image": "/images/projects/assn-app.jpg",
+            "title": "All Star Seating Navigation",
+            "description": "All Stear Seating Navigation: Find the best deals on tickets, Navigate to your seat quicker and easier, Share your experiences with.",
+            "link": "https://apps.apple.com/us/app/assn/id6448857234"
+        },
+        {
+            "id": 15,
+            "category": "Web",
+            "image": "/images/projects/ferro13.jpg",
+            "title": "Ferro13",
+            "description": "Each wine has its own recipe, and is made up of many different characteristics. Ferro13, thanks to study and craftsmanship, enhances the specificities of each product by creating wines of the highest quality.",
+            "link": "https://ferro13.it/en"
+        },
+        {
+            "id": 16,
+            "category": "Web",
+            "image": "/images/projects/r64x.jpg",
+            "title": "R64X",
+            "description": "The objective of R64X is to collect & record a new milestone in digital art history — transition into the crypto era.",
+            "link": "https://r64x.com/"
+        },
+        {
+            "id": 17,
+            "category": "Graphic",
+            "image": "/images/projects/graphic-iq.jpg",
+            "title": "IQ Portfolio",
+            "description": "Personal Portfolio it designed with Figma",
+            "link": ""
+        },
+        {
+            "id": 18,
+            "category": "Game",
+            "image": "/images/projects/game-azerothcore.jpg",
+            "title": "AzerothCore World Of Warcraft",
+            "description": "AzerothCore (AC) is an open-source game-server application for World of Warcraft, currently supporting the 3.3.5a game version.",
+            "link": "https://github.com/azerothcore/azerothcore-wotlk/"
+        },
+        {
+            "id": 19,
+            "category": "Web",
+            "image": "/images/projects/web-azerothcore.jpg",
+            "title": "AzerothCore API",
+            "description": "World of Warcraft Restful API for developers",
+            "link": "https://github.com/azerothcore/acore-api"
+        },
+        {
+            "id": 20,
+            "category": "Web",
+            "image": "/images/projects/web-coineie.jpg",
+            "title": "Coineie",
+            "description": "At CoinEIE, we believe that everyone should be able to earn, hold, spend, share and give their money!",
+            "link": "https://coineie.com/"
+        },
+        {
+            "id": 21,
+            "category": "Web",
+            "image": "/images/projects/web-mimicexpo.jpg",
+            "title": "Mimic Expo",
+            "description": "In Mimic Expo, you can observe various events. Be with different people in different positions and gain. The most experience in a metaverse way.",
+            "link": "https://mimicexpo.com/"
+        },
+        {
+            "id": 22,
+            "category": "Web",
+            "image": "/images/projects/web-mimicplace.jpg",
+            "title": "Mimic Place",
+            "description": "Multichain DeFi Web 3.0 Ecosystem. The next generation gaming ecosystem for ITOs and NFT market.",
+            "link": "https://mimic.place/"
+        },
+        {
+            "id": 23,
+            "category": "Web",
+            "image": "/images/projects/web-bigotop.jpg",
+            "title": "Bigo Top",
+            "description": "Bigo Top is the safest and fastest online store for buying bigolive and like diamonds, which is fully automatically provided to customers.",
+            "link": "https://bigotop.com/"
+        },
+        {
+            "id": 24,
+            "category": "Web",
+            "image": "/images/projects/web-mimicschool.jpg",
+            "title": "Mimic Metaverse School",
+            "description": "The first metaverse school in the world. Whether you are looking for language courses, esoteric courses, computer courses, or any other specialized courses, Mimic school has a wide range of courses available for all age ranges based on metaverse platform.",
+            "link": "https://mimicmetaschool.com/"
+        },
+        {
+            "id": 25,
+            "category": "Game",
+            "image": "/images/projects/game-trinitycore.jpg",
+            "title": "TrinityCore World Of Warcraft",
+            "description": "TrinityCore is an MMORPG framework that's built using Python, and using a back-end of MySQL for the DB content.",
+            "link": "https://github.com/TrinityCore/TrinityCore/"
+        },
+        {
+            "id": 26,
+            "category": "Web",
+            "image": "/images/projects/web-infinity.jpg",
+            "title": "Infinity RP",
+            "description": "The Infinity Roleplay server is one of the newest and best RP servers in USA at the moment, which is managed by experienced people on the FiveM platform.",
+            "link": "https://infinity-tm.net/"
+        }
+    ]
+}

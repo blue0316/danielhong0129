@@ -1,0 +1,16 @@
+{
+    "explore": "Mehr Erkunden",
+    "order": "Jetzt Bestellen",
+    "aside":
+    [
+        { "userTitle": "Full-Stack-Web- und Mobilentwickler" },
+        { "userSubtitle": "DevOps/KI-Ingenieur" },
+        { "residence": "Residenz" },
+        { "city": "Stadt" },
+        { "age": "Alter" },
+        { "finnish": "Finnisch" },
+        { "english": "Englisch" },
+        { "german": "Deutsch" },
+        { "download": "Lebenslauf HERUNTERLADEN" }
+    ]
+}

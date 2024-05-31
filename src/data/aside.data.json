@@ -1,0 +1,114 @@
+{
+    "skills":
+    [
+        {
+            "id": 1,
+            "name": "HTML",
+            "progress": "95%",
+            "progressActive": "95%"
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "progress": "92%",
+            "progressActive": "92%"
+        },
+        {
+            "id": 3,
+            "name": "Javascript",
+            "progress": "90%",
+            "progressActive": "90%"
+        },
+        {
+            "id": 4,
+            "name": "Typescript",
+            "progress": "90%",
+            "progressActive": "90%"
+        },
+        {
+            "id": 5,
+            "name": "Dart",
+            "progress": "90%",
+            "progressActive": "90%"
+        },
+        {
+            "id": 6,
+            "name": "Solidity",
+            "progress": "90%",
+            "progressActive": "90%"
+        },
+        {
+            "id": 7,
+            "name": "Rust",
+            "progress": "89%",
+            "progressActive": "89%"
+        },
+        {
+            "id": 8,
+            "name": "PHP",
+            "progress": "88%",
+            "progressActive": "88%"
+        },
+        {
+            "id": 9,
+            "name": "Python",
+            "progress": "85%",
+            "progressActive": "85%"
+        },
+        {
+            "id": 10,
+            "name": "Ruby",
+            "progress": "82%",
+            "progressActive": "82%"
+        },
+        {
+            "id": 11,
+            "name": "C#",
+            "progress": "82%",
+            "progressActive": "82%"
+        }
+    ],
+    "libraries":
+    [
+        {
+            "id": 1,
+            "names": "Pug, HBS, EJS"
+        },
+        {
+            "id": 2,
+            "names": "Sass, Less, TailwindCSS"
+        },
+        {
+            "id": 3,
+            "names": "NextJS, ReactJS, React Native"
+        },
+        {
+            "id": 4,
+            "names": "Wordpress, Shopify, Webflow"
+        },
+        {
+            "id": 5,
+            "names": "NodeJS, DenoJS, GraphQL"
+        },
+        {
+            "id": 6,
+            "names": "ExpressJS, NestJS, Oak"
+        },
+        {
+            "id": 7,
+            "names": "Python, GoLang, Ruby"
+        },
+        {
+            "id": 8,
+            "names": "Keras, TensorFlow, SciKit"
+        },
+        {
+            "id": 9,
+            "names": "Electron, QT"
+        },
+        {
+            "id": 10,
+            "names": "Boost, Poco, Curl"
+        }
+    ]
+}

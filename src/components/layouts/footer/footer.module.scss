@@ -1,0 +1,46 @@
+.footer
+{
+    padding: 0 3rem;
+    margin-top: auto;
+
+    @media only screen and (width <= 1000px)
+    {
+        padding: 0;
+    }
+
+    &Box
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 1.6rem 3rem;
+        background: var(--base-light);
+        box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+        font-size: 1.1rem;
+        font-weight: 500;
+
+        & span
+        {
+            color: var(--color-base-text);
+        }
+
+        & a
+        {
+            color: var(--color-base-text);
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+
+            &:hover
+            {
+                color: var(--color-primary);
+            }
+
+            & svg
+            {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}

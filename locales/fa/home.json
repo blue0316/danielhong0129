@@ -1,0 +1,57 @@
+{
+    "test": "Test",
+    "typed":
+    [
+        { "desktop": "Je crée des applications de bureau et mobiles." },
+        { "web": "Je construis des interfaces web." },
+        { "restfull": "Je construis des API RESTFUL et GraphQL." },
+        { "games": "Je crée des jeux avec les moteurs Unreal, Frostbite et Unity." },
+        { "cyber": "Je suis un passionné de cybersécurité." },
+        { "languages": "Je suis développeur JavaScript, TypeScript et Python." },
+        { "frontend": "Je suis développeur ReactJS et NextJS." },
+        { "backend": "Je suis développeur NodeJS, DenoJS, NestJS et Poco." },
+        { "cross": "Je suis développeur Electron, React Native et Qt." }
+    ],
+    "headers":
+    [
+        { "heading": "Qu'est-ce que je fais et qui suis-je ?" },
+        { "customers": "Clients satisfaits" },
+        { "projects": "Projets terminés" },
+        { "experience": "Années d'expérience" },
+        { "honors": "Honneurs et récompenses" }
+    ],
+    "about":
+    [
+        { "heading": "À propos de moi" },
+        { "paragraph": "Daniel est un grand passionné de problèmes non résolus et un ingénieur logiciel hautement qualifié avec plus de sept ans d'expérience dans le domaine du Web, du mobile, du développement de logiciels et des produits Web3, travaillant pour des entreprises, des petites startups aux grandes.\nIl aime travailler avec les gens, n'est-ce pas a peur des changements, est très doué pour les relations interpersonnelles et est toujours ouvert aux nouveaux défis. Il a de l'expérience avec PHP et Python ainsi qu'avec leurs frameworks tels que Poco et Qt, mais il se concentre sur les technologies liées à JavaScript comme Typescript, NodeJS, DenoJS, NestJS, NextJS, React et React Native." },
+        { "fat": "Cadres et technologies" }
+    ],
+    "services":
+    [
+        {
+            "title": "Développement Front-End",
+            "description": "Le développement Web front-end est le développement de l'interface utilisateur graphique d'un site Web, grâce à l'utilisation de HTML, ReactJS et NextJS, afin que les utilisateurs puissent visualiser et interagir avec le site Web."
+        },
+        {
+            "title": "Développement Back-End",
+            "description": "Le développement back-end signifie travailler côté serveur du logiciel, qui se concentre sur tout ce que vous ne pouvez pas voir sur un site Web basé sur NodeJS, DenoJS, NestJS, NextJS et Poco."
+        },
+        {
+            "title": "Développement multiplateforme",
+            "description": "Le développement multiplateforme consiste à développer des produits ou services logiciels pour plusieurs plates-formes telles que Windows, Linux, macOS, Android, iOS ou des environnements logiciels basés sur Electron, React Native et Python."
+        },
+        {
+            "title": "Développement de jeux",
+            "description": "Le développement de jeux est l'art de créer des jeux et décrit la conception, le développement et la sortie d'un jeu avec les moteurs Unreal, Frostbite et Unity. Cela peut impliquer la génération de concepts, la conception, la construction, le test et la sortie."
+        },
+        {
+            "title": "Cyber-sécurité",
+            "description": "Dans le monde numérique, nos données sont sécurisées aussi longtemps que nous le savons. La plupart des piratages qui se produisent sont principalement des attaques d'ingénierie sociale dans lesquelles la psychologie humaine est exploitée à l'aide de données consciemment mises en ligne par des personnes sur les réseaux sociaux ."
+        },
+        {
+            "title": "Optimisation pour les moteurs de recherche",
+            "description": "L'optimisation des moteurs de recherche est le processus d'amélioration de la qualité et de la quantité du trafic d'un site Web vers un site Web ou une page Web à partir de moteurs de recherche. Le référencement cible le trafic non rémunéré plutôt que le trafic direct ou le trafic payant."
+        },
+        { "heading": "Services" }
+    ]
+}

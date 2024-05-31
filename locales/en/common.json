@@ -1,0 +1,16 @@
+{
+    "explore": "EXPLORE MORE",
+    "order": "ORDER NOW",
+    "aside":
+    [
+        { "userTitle": "Full-Stack Web & Mobile Developer" },
+        { "userSubtitle": "DevOps/AI Engineer" },
+        { "residence": "Residence" },
+        { "city": "City" },
+        { "age": "Age" },
+        { "finnish": "Finnish" },
+        { "english": "English" },
+        { "german": "German" },
+        { "download": "DOWNLOAD CV" }
+    ]
+}

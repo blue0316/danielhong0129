@@ -1,0 +1,57 @@
+.serviceCard
+{
+    background: var(--base-light);
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &Heading
+    {
+        margin-bottom: 1.5rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: var(--color-base-text-bold);
+    }
+
+    &Paragraph
+    {
+        margin-bottom: 1.5rem;
+        line-height: 1.7;
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: var(--color-base-text);
+    }
+
+    &Button
+    {
+        display: flex;
+        align-items: center;
+
+        margin-top: auto;
+
+        &,
+        &:link,
+        &:visited
+        {
+            color: var(--color-primary);
+            letter-spacing: 1.5px;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        svg
+        {
+            height: 1.5rem;
+            width: 1.5rem;
+            fill: var(--color-primary);
+            transition: all 0.2s;
+        }
+
+        &:hover svg
+        {
+            margin-left: 0.4rem;
+        }
+    }
+}

@@ -1,0 +1,380 @@
+.aside
+{
+    display: grid;
+    grid-template-rows: 23.5rem 1fr 5rem;
+
+    position: relative;
+    z-index: 100;
+
+    box-shadow: 0 3px 8px 0 var(--base-transparent-darker);
+    overflow: hidden;
+
+    @media only screen and (width <= 1000px)
+    {
+        position: fixed;
+        top: 0;
+        z-index: 101;
+
+        transition: 0.4s;
+        left: -100%;
+        height: 100%;
+    }
+
+    &__divider
+    {
+        background: var(--color-base-text);
+        width: 100%;
+        height: 0.1rem;
+        opacity: 0.3;
+    }
+
+    &ToggleUi
+    {
+        display: none;
+
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+
+        cursor: pointer;
+        font-size: 2rem;
+        color: var(--color-base-text);
+
+        @media only screen and (width <= 1000px)
+        {
+            display: block;
+        }
+    }
+
+    &Active
+    {
+        left: 0;
+    }
+
+    &User
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        background: var(--base-darker);
+
+        &ImageContainer
+        {
+            display: grid;
+            place-items: center;
+
+            position: relative;
+
+            &Status
+            {
+                position: absolute;
+                right: 10.4rem;
+                bottom: 1rem;
+
+                height: 1.5rem;
+                width: 1.5rem;
+                background-color: var(--color-primary);
+                border-radius: 50%;
+            }
+        }
+
+        &Image
+        {
+            border-radius: 50%;
+        }
+
+        &InfoContainer
+        {
+            display: grid;
+            place-items: center;
+        }
+
+        &Name
+        {
+            color: var(--color-base-text-bold);
+            font-size: 1.2rem;
+            transition: 0.4s ease-out;
+            margin: 1rem 0;
+            font-weight: 600;
+
+            &:hover
+            {
+                color: var(--color-primary);
+            }
+        }
+
+        &Title
+        {
+            color: var(--color-base-text);
+        }
+    }
+
+    &Information
+    {
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar
+        {
+            display: none;
+        }
+
+        background-color: var(--base-dark);
+        padding: 2rem 3rem;
+
+        &WebLanguages
+        {
+            display: flex;
+
+            padding-bottom: 1.2rem;
+
+            &Option
+            {
+                display: grid;
+                place-items: center;
+
+                font-weight: 600;
+                transition: all 0.2s;
+                cursor: pointer;
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                background: var(--base-light);
+                color: var(--color-base-text);
+                margin: auto auto 0.5rem;
+
+                &:hover
+                {
+                    background: var(--base-lighter);
+                }
+
+                &Active
+                {
+                    background: var(--color-primary);
+                    color: var(--base);
+                }
+            }
+        }
+
+        &Personal
+        {
+            &List
+            {
+                padding: 1.2rem 0;
+
+                &Item
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 0.5rem;
+
+                    & span:nth-child(1)
+                    {
+                        color: var(--color-base-text-bold);
+                        font-size: 1.2rem;
+                        font-weight: 300;
+                    }
+
+                    & span:nth-child(2)
+                    {
+                        font-size: 1.2rem;
+                        color: var(--color-base-text);
+                    }
+                }
+            }
+
+            &Languages
+            {
+                display: flex;
+                justify-content: center;
+
+                margin-top: 2rem;
+                margin-bottom: 2.3rem;
+
+                &Content
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    & span
+                    {
+                        font-size: 1.2rem;
+                        font-weight: 300;
+                        color: var(--color-base-text-bold);
+                    }
+
+                    & svg
+                    {
+                        margin: 1rem;
+                        width: 5rem;
+                        height: 5rem;
+
+                        & path
+                        {
+                            stroke: var(--color-primary);
+                        }
+
+                        path:nth-child(1)
+                        {
+                            fill: none;
+                            stroke: var(--base-lighter);
+                            stroke-width: 3.8;
+                        }
+
+                        path:nth-child(2)
+                        {
+                            fill: none;
+                            stroke-width: 2.8;
+                            stroke-linecap: round;
+                        }
+
+                        & text
+                        {
+                            fill: var(--color-base-text);
+                            font-size: 0.6em;
+                            text-anchor: middle;
+                        }
+                    }
+                }
+            }
+        }
+
+        &Skills
+        {
+            margin: 3rem 0;
+
+            &Bar
+            {
+                margin: 1.8rem 0;
+
+                &Info
+                {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    margin-bottom: 1rem;
+
+                    & span:first-child
+                    {
+                        color: var(--color-base-text-bold);
+                        font-weight: 500;
+                        font-size: 1.2rem;
+                    }
+
+                    & span:last-child
+                    {
+                        color: var(--color-base-text);
+                    }
+                }
+
+                &Progress
+                {
+                    position: relative;
+
+                    height: 0.5rem;
+                    width: 100%;
+                    border-radius: 5rem;
+                    background: var(--base-light);
+
+                    &Active
+                    {
+                        position: absolute;
+                        border-radius: 5rem;
+                        height: 95%;
+                        background: var(--color-primary);
+                    }
+                }
+            }
+        }
+
+        &LibrariesList
+        {
+            margin: 2rem 0;
+
+            &Items
+            {
+                display: flex;
+                align-items: center;
+
+                &:not(:last-child)
+                {
+                    margin-bottom: 0.4rem;
+                }
+
+                & svg
+                {
+                    fill: var(--color-primary);
+                    width: 2rem;
+                    height: 2rem;
+                    margin-right: 1rem;
+                }
+
+                & span
+                {
+                    font-size: 1.2rem;
+                    color: var(--color-base-text);
+                }
+            }
+        }
+
+        &CV
+        {
+            margin-top: 2rem;
+
+            &:link,
+            &:visited
+            {
+                display: flex;
+                align-items: center;
+
+                color: var(--color-base-text);
+                font-size: 1.2rem;
+                font-weight: 400;
+                transition: all 0.4s ease-out;
+            }
+
+            &:hover,
+            &:hover svg,
+            &:active
+            {
+                color: var(--color-base-text-bold);
+                fill: var(--color-base-text-bold);
+            }
+
+            & svg
+            {
+                fill: var(--color-base-text);
+                width: 2rem;
+                height: 2rem;
+                margin-right: 0.8rem;
+                transition: all 0.4s ease-out;
+            }
+        }
+    }
+
+    &Footer
+    {
+        background: var(--base-darker);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        & svg
+        {
+            fill: var(--color-base-text);
+            width: 1.4rem;
+            height: 1.4rem;
+            transition: all 0.4s ease-out;
+
+            &:hover
+            {
+                fill: var(--color-base-text-bold);
+            }
+        }
+    }
+}

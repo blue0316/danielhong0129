@@ -1,0 +1,12 @@
+.organization
+{
+    & img
+    {
+        filter: grayscale(100%);
+
+        &:hover
+        {
+            opacity: 0.75;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.repository
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 12rem;
+    padding: 3rem;
+    background: var(--base-light);
+
+    &Info
+    {
+        & span
+        {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--color-base-text-bold);
+        }
+
+        & p
+        {
+            padding-top: 1rem;
+            line-height: 1.7;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--color-base-text);
+        }
+    }
+
+    &Stats
+    {
+        margin-top: auto;
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        &Item
+        {
+            border-radius: 10rem;
+            padding: 0.5rem 1.25rem;
+            background-color: var(--base);
+            color: var(--color-base-text);
+            font-weight: 600;
+            transition: all 0.2s;
+            cursor: pointer;
+
+            &:hover
+            {
+                background: var(--base-lighter);
+            }
+
+            & a
+            {
+                display: flex;
+                align-items: center;
+
+                & svg
+                {
+                    color: var(--color-primary);
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    margin-right: 0.5rem;
+                }
+
+                & span
+                {
+                    color: var(--color-base-text);
+                }
+            }
+        }
+    }
+}
