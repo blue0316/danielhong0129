@@ -40,13 +40,13 @@ const Contact: NextPage = () =>
                 <meta name='author' content='Daniel Hong'/>
 
                 <meta property='og:type' content='website'/>
-                <meta property='og:url' content='https://danielhong0129.vercel.com/contact'/>
+                <meta property='og:url' content='https://danielhong00129.vercel.com/contact'/>
                 <meta property='og:title' content='Daniel Hong'/>
                 <meta property='og:description' content='Daniel Hong Contact'/>
-                <meta property='og:image' content='https://danielhong0129.vercel.com/favicon.png'/>
+                <meta property='og:image' content='https://danielhong00129.vercel.com/favicon.png'/>
 
                 <meta property='twitter:card' content='summary'/>
-                <meta property='twitter:url' content='https://danielhong0129.vercel.com/contact'/>
+                <meta property='twitter:url' content='https://danielhong00129.vercel.com/contact'/>
                 <meta property='twitter:title' content='Daniel Hong'/>
                 <meta property='twitter:description' content='Daniel Hong Contact'/>
 

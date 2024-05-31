@@ -20,7 +20,7 @@ I value keeping my site open source, but as you all know, _**plagiarism is bad**
 
 ### TL;DR
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [danielhong0129.vercel.com](https://danielhong0129.vercel.com). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [danielhong00129.vercel.com](https://danielhong00129.vercel.com). Thanks!
 
 ## 🛠 Installation & Set Up
 
@@ -57,7 +57,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [da
    ```
 
 ## ⚠️ License & 📝 Credits
-danielhong0129.vercel.com is open-source portfolio-website licensed under the MIT General Public License v3.0. created by [@DanielHong](https://github.com/blue0316) & [@im-parsa](https://github.com/im-parsa).
+danielhong00129.vercel.com is open-source portfolio-website licensed under the MIT General Public License v3.0. created by [@DanielHong](https://github.com/blue0316) & [@im-parsa](https://github.com/im-parsa).
 
 
 Street:  Norra Esplanaden 18
